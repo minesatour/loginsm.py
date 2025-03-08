@@ -1,0 +1,17 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore logins and results files (to prevent leaking credentials)
+logins.txt
+hits.txt
+logins_checked.txt
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
