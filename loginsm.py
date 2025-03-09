@@ -13,8 +13,7 @@ def check_email_login(email, password):
         "outlook.com": "outlook.office365.com",
         "aol.com": "imap.aol.com",
         "icloud.com": "imap.mail.me.com"
-        "btinternet.com": "outlook.office365.com"  # Port 993 is used automatically
-
+        "btinternet.com": "outlook.office365.com"  
     }
 
     if domain not in imap_servers:
